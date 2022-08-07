@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Apology
+{% endblock %}
+
+{% block main %}
+    <!-- https://memegen.link/ -->
+    <h2>ОШИБКА</h2>
+    <div>{{ top }}</div>
+    <div>{{ top | urlencode }}/{{ bottom | urlencode }}</div>
+{% endblock %}
